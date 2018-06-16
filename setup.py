@@ -12,9 +12,6 @@ setup(
     license='Apache',
     keywords='Trade API for Robinhood',
     packages=['robinhood'],
-    package_data={
-        'robinhood': ['certs/*']
-    },
     install_requires=[
         'requests >= 2.18.4',
         'python-dateutil >= 2.6.1',
